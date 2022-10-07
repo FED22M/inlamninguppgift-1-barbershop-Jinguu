@@ -74,15 +74,15 @@ body {
 }
 
 .testimonial .person:nth-child(1) .icon {
-    background-image: url(bilder/person1.jpg);
+    background-image: url("../img/person1.jpg");
 }
 
 .testimonial .person:nth-child(2) .icon {
-    background-image: url(bilder/person2.jpg);
+    background-image: url("../img/person2.jpg");
 }
 
 .testimonial .person:nth-child(3) .icon {
-    background-image: url(bilder/person3.jpg);
+    background-image: url("../img/person3.jpg");
 }
 
 .testimonial .person .text-container {
@@ -102,7 +102,7 @@ body {
 }
 
 .quotation-icon {
-    background-image: url(bilder/quotation.jpg);
+    background-image: url("../img/quotation.jpg");
     background-color: rgb(191, 146, 91);
     height: 30px;
     width: 30px;

@@ -44,7 +44,7 @@
 .image-1 {
     height: 180px;
     width: 180px;
-    background-image: url("bilder/hairshave.jpg");
+    background-image: url("../img/hairshave.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -56,7 +56,7 @@
 .image-2 {
     height: 180px;
     width: 180px;
-    background-image: url("bilder/beardtrim.jpg");
+    background-image: url("../beardtrim.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -68,7 +68,7 @@
 .image-3 {
     height: 180px;
     width: 180px;
-    background-image: url("bilder/hotshave.jpg");
+    background-image: url("../hotshave.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -80,7 +80,7 @@
 .image-4 {
     height: 180px;
     width: 180px;
-    background-image: url("bilder/hairshampoo.jpg");
+    background-image: url("../hairshampoo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
