@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
 
 body {
     margin: 0;
@@ -11,7 +13,7 @@ body {
 
 .site-title h1 {
     font-weight: 400;
-    font-family: 'Barlow Semi Condensed';
+    font-family: 'Barlow Semi Condensed', sans-serif;
     color: white;
     font-size: 2rem;
     margin: 0;
@@ -37,9 +39,8 @@ body {
 }
 
 header {
-    background-color: rgb(20, 27, 37);
     padding: 2em 0;
-    box-shadow: 0 4px 8px 0 rgba(20, 27, 37, 0);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 675px) {
@@ -97,6 +98,7 @@ nav a:focus {
     }
 }
 
+
 /* Home page */
 
 .overlay {
@@ -121,14 +123,14 @@ nav a:focus {
 .landing-text h3 {
     font-weight: 700;
     color: rgb(191, 146, 91);
-    font-family: "Poppins";
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .landing-text h1 {
     font-size: 450%;
     font-weight: 700;
     color: white;
-    font-family: 'Barlow Semi Condensed';
+    font-family: 'Barlow Semi Condensed', sans-serif;
     padding-bottom: 0;
     margin: 0;
 }
@@ -170,4 +172,21 @@ nav a:focus {
     border-radius: 1rem;
     background-color: rgb(20, 27, 37);
     margin-bottom: 8px;
+}
+
+.about-header {
+    color: rgb(191, 146, 91);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.about-content {
+    color: rgb(20, 27, 37);
+    text-align: center;
+}
+
+#left {
+    text-align: right;
 }
