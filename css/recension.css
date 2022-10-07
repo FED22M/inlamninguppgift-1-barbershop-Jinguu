@@ -74,7 +74,7 @@ body {
 }
 
 .testimonial .person:nth-child(1) .icon {
-    background-image: url("img/person1.jpg");
+    background-image: url("../img/person1.jpg");
 }
 
 .testimonial .person:nth-child(2) .icon {
