@@ -9,13 +9,13 @@ img {
 
 .person-grid .person-picture {
     width: 67vh;
-    height: 100%;
     margin-left: 150px;
     object-fit: cover;
+    margin-top: 30%;
 }
 
 .person-grid .person-text {
-    margin-top: 0px;
+    margin-top: 50%;
     padding: 80px 60px;
 }
 
@@ -150,8 +150,10 @@ span {
 
     .person-grid .person-picture {
         height: 100%;
+
     }
 }
+
 
 
 
