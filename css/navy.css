@@ -1,0 +1,81 @@
+.site-title h1 {
+    font-weight: bold;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: white;
+    font-size: 1.rem;
+    margin: 0;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 2em 0;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+
+@media (max-width: 675px) {
+    .container-nav {
+        flex-direction: center;
+
+    }
+
+    header {
+        text-align: center;
+
+    }
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 2em 0;
+}
+
+nav a:hover,
+
+nav a:focus {
+    color: rgb(191, 146, 91);
+}
+
+.current-page {
+    color: rgb(191, 146, 91);
+}
+
+.current-page:hover {
+    color: black;
+}
+
+@media (max-width: 675px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0.5em 0;
+    }
+}
