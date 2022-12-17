@@ -2,20 +2,19 @@
     font-weight: bold;
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: white;
-    font-size: 1.rem;
     margin: 0;
-
 }
 
 .container {
-    width: 90%;
-    max-width: 960px;
+    width: 100%;
+    padding: 10px;
     margin: 0 auto;
 }
 
 .container-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 header {
@@ -44,7 +43,7 @@ nav ul {
 }
 
 nav li {
-    margin-left: 2em;
+    margin-left: 20px;
 }
 
 nav a {
